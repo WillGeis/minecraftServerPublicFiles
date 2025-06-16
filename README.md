@@ -39,3 +39,28 @@ Copy and paste all mods from the "MODS" folder within the repository into the .m
 ![image](https://github.com/user-attachments/assets/8b2350a7-89d2-4722-8c1a-fb4385977fcd)
 
 Close and relaunch the minecraft launcher and click "PLAY" now, it will take 1-15 minutes to load. Once you are in go to (and make sure you trust this modpack lol, i checked, no viruses XD) Multiplayer and either hit direct connect and connect with the IP Will can give you, or via creating a coneection on the add server button (reccommended).
+
+#### 3) reccomended but not neccicary: game resources optimization
+
+We are going to allocate more RAM here to have better performance, I would sugget this formula for your ram $$SystemRam - 8gb * 1000mg/1gb = mb to use for here$$ **Note:** I have both tried $2^n$ memory allocations and round ones divisible by 10 no issue there so i go with rounded; further the default string with fabric is given in gb so it doesnt really matter anyway.
+
+Navigate to the instalations tab:
+
+![image](https://github.com/user-attachments/assets/6211d4ff-d82b-41e5-b8f0-8ad5b0216a89)
+
+![image](https://github.com/user-attachments/assets/87f10b9f-f74e-4a4b-8428-afc9ee2f97bb)
+
+In this string:
+
+![image](https://github.com/user-attachments/assets/76ddaff5-9ae9-407a-8d59-ddfae33420e0)
+
+-Xmx**REPLACE WITH STRING FOR GB OF RAM TO ALLOCATE**G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
+
+For me on a 16gb rig, I use 8gb:
+
+-Xmx8G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
+
+hit save and play and you are good to go
+
+
+
