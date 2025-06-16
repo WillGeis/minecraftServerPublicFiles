@@ -8,7 +8,7 @@
 
 Before we start this step, close any minecraft instances and any launcher instances, this works best on a clean restart. In this repository there is a folder labeled INSTALLER, please click into that or if you have cloned it navigate into it
 
-download --> click on the fabric intaller exe (v1.0.3)
+download [click here](https://github.com/WillGeis/minecraftServerPublicFiles/tree/main/INSTALLER) --> click on the fabric intaller exe (v1.0.3) 
 
 ![image](https://github.com/user-attachments/assets/3bbefcd1-a341-45bf-adf3-f4ace069902c)
 
@@ -34,7 +34,7 @@ Open .minecraft:
 
 ![image](https://github.com/user-attachments/assets/ace26fa9-7eba-4f00-8003-8720e3cc8ba6)
 
-Copy and paste all mods from the "MODS" folder within the repository into the .minecraft/mods (~\.minecraft\mods) folder:
+Copy and paste all mods from the "MODS" folder [click here](https://github.com/WillGeis/minecraftServerPublicFiles/tree/main/MODS) within the repository into the .minecraft/mods (~\.minecraft\mods) folder:
 
 ![image](https://github.com/user-attachments/assets/8b2350a7-89d2-4722-8c1a-fb4385977fcd)
 
