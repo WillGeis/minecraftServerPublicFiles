@@ -62,5 +62,15 @@ For me on a 16gb rig, I use 8gb:
 
 hit save and play and you are good to go
 
+#### 4) Removing Distant horizons (still being worked on)
 
+In the game menu, click options then Click here
+
+![image](https://github.com/user-attachments/assets/2b7f5238-4dd3-4279-8a9b-60ce434f5a66)
+
+then turn this to false:
+
+![image](https://github.com/user-attachments/assets/256c3706-2e17-406c-887f-1948eed41f4f)
+
+and hit done, enjoy your more fps
 
