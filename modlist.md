@@ -25,4 +25,12 @@
 21) https://www.curseforge.com/minecraft/mc-mods/paintings
 22) https://www.curseforge.com/minecraft/mc-mods/farmers-delight-refabricated
 23) https://www.curseforge.com/minecraft/mc-mods/macaws-furniture
-24) https://www.curseforge.com/minecraft/mc-mods/building-wands
+24) https://modrinth.com/mod/accessories?version=1.20.1&loader=fabric
+25) https://modrinth.com/mod/glitchcore?version=1.20.1&loader=fabric
+26) https://modrinth.com/mod/terrablender?version=1.20.1&loader=fabric
+27) https://modrinth.com/mod/smartbrainlib?version=1.20.1&loader=fabric
+28) https://modrinth.com/mod/geckolib?version=1.20.1&loader=fabric
+29) https://modrinth.com/mod/fabric-language-kotlin?version=1.20.1
+30) https://www.curseforge.com/minecraft/mc-mods/cupboard
+31) https://modrinth.com/mod/balm?version=1.20.1&loader=fabric
+32) https://modrinth.com/mod/patchouli?version=1.20.1&loader=fabric
