@@ -24,3 +24,5 @@
 20) https://www.curseforge.com/minecraft/mc-mods/ewewukeks-musket-mod
 21) https://www.curseforge.com/minecraft/mc-mods/paintings
 22) https://www.curseforge.com/minecraft/mc-mods/farmers-delight-refabricated
+23) https://www.curseforge.com/minecraft/mc-mods/macaws-furniture
+24) https://www.curseforge.com/minecraft/mc-mods/building-wands
