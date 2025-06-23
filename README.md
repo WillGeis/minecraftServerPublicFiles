@@ -34,6 +34,8 @@ Open .minecraft:
 
 ![image](https://github.com/user-attachments/assets/ace26fa9-7eba-4f00-8003-8720e3cc8ba6)
 
+**NOTE:** if you do not want to individually download all the files from this repository by hand, you can proceed to step 5 and learn how to clone this repository
+
 Copy and paste all mods from the "MODS" folder [click here](https://github.com/WillGeis/minecraftServerPublicFiles/tree/main/MODS) within the repository into the .minecraft/mods (~\.minecraft\mods) folder:
 
 ![image](https://github.com/user-attachments/assets/8b2350a7-89d2-4722-8c1a-fb4385977fcd)
@@ -62,7 +64,7 @@ For me on a 16gb rig, I use 8gb:
 
 hit save and play and you are good to go
 
-#### 4) Removing Distant horizons (still being worked on)
+#### 4) Removing Distant horizons *Depricated until I can patch*
 
 In the game menu, click options then Click here
 
@@ -74,3 +76,24 @@ then turn this to false:
 
 and hit done, enjoy your more fps
 
+#### 5) Installing Git For a Faster Download
+
+Okay, lets say that you actually see sunlight more than on your walk from your house to the convience store and you **don't** have git. This section will help you install it:
+
+Go to [mac](https://git-scm.com/downloads/mac) if you are on mac or [windows](https://git-scm.com/downloads/win). Once there follow the download instructions, clicking through the **default** settings.
+
+Once git is installed open it (I dont know how for mac but on windows you hit the windows key and type git, and select git bash).
+
+![{80D4D183-D6B2-4A26-8BD8-0F1C5264D0B1}](https://github.com/user-attachments/assets/0878fdae-f7ea-4c3b-9220-a93c16cb2f0c)
+
+Commands you will use/learn:
+
+ls - lists the contents of the directory you are in
+cd /path/to/file/ - change directory you are in (essentially a file navigator)
+git clone https://github.com/WillGeis/minecraftServerPublicFiles.git - this will clone all the files from this repository onto your computer
+
+![{357574F0-C42A-4DE5-BD3F-EAF6E1E94252}](https://github.com/user-attachments/assets/e708090b-587b-4498-974e-902b289e3305)
+
+Typically I put the files from this on a temporary folder on my desktop, if you want to as well first navigate there at by typing (no "") "cd Desktop/" and hitting enter. After that paste "git clone https://github.com/WillGeis/minecraftServerPublicFiles.git" and the files will appear in a file on your desktop with this repository's name (minecraftServerPublicFiles)
+
+Bam you have the files and you learned a powerful VCS (version control system) tool that you can actually use if you want to pursue a career that will drive you slowly insane
