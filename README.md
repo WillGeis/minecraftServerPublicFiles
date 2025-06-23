@@ -4,7 +4,7 @@
 
 # tutorial:
 
-#### $\Mu$ ) if you do not have java
+#### $\Kappa$ ) if you do not have java
 
 To check simply open your computers terminal and type java -version
 
@@ -22,11 +22,11 @@ You will need to delete your .minecraft folder, see steps below to navigate. Thi
 
 Before we start this step, close any minecraft instances and any launcher instances, this works best on a clean restart. In this repository there is a folder labeled INSTALLER, please click into that or if you have cloned it navigate into it
 
-download [click here](https://github.com/WillGeis/minecraftServerPublicFiles/tree/main/INSTALLER) --> click on the fabric intaller exe (v1.0.3) 
+![{5B191384-1FB5-4B5C-A1A8-124DA0BF5941}](https://github.com/user-attachments/assets/fdd2f73d-29e6-447a-9a49-b59aafd31df1)
 
 ![image](https://github.com/user-attachments/assets/3bbefcd1-a341-45bf-adf3-f4ace069902c)
 
-Ensure that your minecraft version is 1.21.1 and loader version is 0.16.14, do not mess with any other settings.
+Ensure that your minecraft version is 1.2.1 and loader version is 0.16.14, do not mess with any other settings.
 
 Hit install, you should see a successful message, go ahead and open the minecraft launcher BUT DO NOT CLICK PLAY UNTIL ADVISED. Make sure this is the version listed:
 
@@ -50,7 +50,7 @@ Open .minecraft:
 
 **NOTE:** if you do not want to individually download all the files from this repository by hand, you can proceed to step 5 and learn how to clone this repository
 
-Copy and paste all mods from the "MODS" folder [click here](https://github.com/WillGeis/minecraftServerPublicFiles/tree/main/MODS) within the repository into the .minecraft/mods (~\.minecraft\mods) folder:
+Copy and paste all mods from the "MODS" folder [click here](https://github.com/WillGeis/minecraftServerPublicFiles/tree/main/MODS) within the repository into the .minecraft/mods (~\.minecraft\mods) folder (note the mods pictured below are from a previous verison, just do the current mods in this repository):
 
 ![image](https://github.com/user-attachments/assets/8b2350a7-89d2-4722-8c1a-fb4385977fcd)
 
