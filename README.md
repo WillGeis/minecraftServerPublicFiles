@@ -88,9 +88,9 @@ Once git is installed open it (I dont know how for mac but on windows you hit th
 
 Commands you will use/learn:
 
-ls - lists the contents of the directory you are in
-cd /path/to/file/ - change directory you are in (essentially a file navigator)
-git clone https://github.com/WillGeis/minecraftServerPublicFiles.git - this will clone all the files from this repository onto your computer
+ 1) ls - lists the contents of the directory you are in
+ 2) cd /path/to/file/ - change directory you are in (essentially a file navigator)
+ 3) git clone https://github.com/WillGeis/minecraftServerPublicFiles.git - this will clone all the files from this repository onto your computer
 
 ![{357574F0-C42A-4DE5-BD3F-EAF6E1E94252}](https://github.com/user-attachments/assets/e708090b-587b-4498-974e-902b289e3305)
 
