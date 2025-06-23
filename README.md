@@ -4,6 +4,20 @@
 
 # tutorial:
 
+#### $\Mu$ ) if you do not have java
+
+To check simply open your computers terminal and type java -version
+
+if not download the JDK here: [java](https://www.oracle.com/java/technologies/downloads/)
+
+if you are on mac, get fucked, idc enough to type this out you are obviously rich enough to use google.
+
+Navigate to the windows tab and click Download the x64 Installer using the link on the right. Click the download once it is done. This will download java (specifically the a JDK) click next or whatever advances the page until it is done. It is not a virus Oracle is the worlds 17th largest company.
+
+#### $\Sigma$ ) if you have downloaded a previous pack
+
+You will need to delete your .minecraft folder, see steps below to navigate. This is because of the .json s that point to the old mods/releases.
+
 #### 1) downloading fabric
 
 Before we start this step, close any minecraft instances and any launcher instances, this works best on a clean restart. In this repository there is a folder labeled INSTALLER, please click into that or if you have cloned it navigate into it
