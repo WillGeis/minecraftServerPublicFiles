@@ -4,7 +4,7 @@
 
 # tutorial:
 
-#### $\Kappa$ ) if you do not have java
+#### $\Alpha$ ) if you do not have java
 
 To check simply open your computers terminal and type java -version
 
