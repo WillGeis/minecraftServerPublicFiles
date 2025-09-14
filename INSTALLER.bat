@@ -1,8 +1,8 @@
 @echo off
 echo Compiling InstallerWindowMain.java...
-javac InstallerWindowMain.java
+javac INSTALLER\InstallerWindowMain.java
 
 echo Running Installer . . .
-java InstallerWindowMain
+java -cp . INSTALLER.InstallerWindowMain
 
 pause
