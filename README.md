@@ -28,7 +28,7 @@ Ensure that your minecraft version is `1.20.1` and loader version is `0.16.14` (
 
 Hit install, you should see a successful message, go ahead and open the minecraft launcher BUT DO NOT CLICK PLAY UNTIL ADVISED. Make sure this is the version listed:
 
-![image](https://github.com/user-attachments/assets/17fff9bf-adaa-4b47-9ceb-26fed66fbf45)
+<img width="1281" height="754" alt="image" src="https://github.com/user-attachments/assets/2cb4aa6b-b2fa-4d94-a234-41e31d5bbbd3" />
 
 If not, uninstall and try again.
 
