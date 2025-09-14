@@ -4,9 +4,9 @@
 
 # tutorial:
 
-#### $\Alpha$ ) if you do not have java
+#### Α ) if you do not have java
 
-To check simply open your computers terminal and type java -version
+To check simply open your computers terminal and type `java -version`
 
 if not download the JDK here: [java](https://www.oracle.com/java/technologies/downloads/)
 
@@ -14,13 +14,13 @@ if you are on mac, get fucked, idc enough to type this out you are obviously ric
 
 Navigate to the windows tab and click Download the x64 Installer using the link on the right. Click the download once it is done. This will download java (specifically the a JDK) click next or whatever advances the page until it is done. It is not a virus Oracle is the worlds 17th largest company.
 
-#### $\Sigma$ ) if you have downloaded a previous pack
+#### Σ ) if you have downloaded a previous pack
 
-You will need to delete your .minecraft folder, see steps below to navigate. This is because of the .json s that point to the old mods/releases.
+You will need to delete all the files in your .minecraft/mods (`~/.minecraft/mods/*.jar`) folder, see steps below to navigate.
 
 #### 1) downloading fabric
 
-Before we start this step, close any minecraft instances and any launcher instances, this works best on a clean restart. In this repository there is a folder labeled INSTALLER, please click into that or if you have cloned it navigate into it
+Before we start this step, close any minecraft instances and any launcher instances, this works best on a clean restart. In this repository there is a file called `fabric-installer-1.0.3.jar`, please click into that or if you have cloned it navigate into it
 
 ![{5B191384-1FB5-4B5C-A1A8-124DA0BF5941}](https://github.com/user-attachments/assets/fdd2f73d-29e6-447a-9a49-b59aafd31df1)
 
@@ -34,6 +34,14 @@ If not, uninstall and try again.
 
 #### 2) adding mods
 
+### 2a) using the installer/git
+
+If you want the easiest way to do this, I have built a installer that can be used by windows users (and MacOS users if they directly run `javac INSTALLER/InstallerWindowMain.java` then `java INSTALLER/InstallerWindowMain.java` to compile and run from the root directory)
+
+The launcher has its own instructions on how to do this, so please use those
+
+### 2b) dragging files in
+
 I dont know how to do this on a mac so you can google how to get to your .mincraft folder, for Windows users, hit the windows key and search "run" click this:
 
 ![image](https://github.com/user-attachments/assets/c0918471-0708-4d02-8b9f-05e549ecc783)
@@ -46,7 +54,11 @@ Open .minecraft:
 
 ![image](https://github.com/user-attachments/assets/ace26fa9-7eba-4f00-8003-8720e3cc8ba6)
 
-**NOTE:** if you do not want to individually download all the files from this repository by hand, you can proceed to step 5 and learn how to clone this repository
+### 2Δ) google drive method
+
+If you are a lazy asshat, do not want to learn how to use a wonderful tool (again because you are a P.O.S.), and you just want to say "fuck you" to my hard work making a launcher, here is the google drive link for all the jars. I hope you feel bad about yourself: [Clicking this link means that you do not support Will's hard work](https://drive.google.com/drive/folders/1ioKVlznl7OvcqtVKKr4FN9gSg0iJfsCY?usp=sharing)
+
+**NOTE ON STEP 2:** if you do not want to individually download all the files from this repository by hand, you can proceed to step 4 and learn how to clone this repository
 
 Copy and paste all mods from the "MODS" folder [click here](https://github.com/WillGeis/minecraftServerPublicFiles/tree/main/MODS) within the repository into the .minecraft/mods (~\.minecraft\mods) folder (note the mods pictured below are from a previous verison, just do the current mods in this repository):
 
@@ -70,25 +82,13 @@ In this string:
 
 -Xmx**REPLACE WITH STRING FOR GB OF RAM TO ALLOCATE**G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
 
-For me on a 16gb rig, I use 8gb:
+For me on a 16gb rig, I use 8gb, *NOTE* do not allocate >12 gb of RAM because it can allow Minecraft to have memory leaks, I have done some fixes in these packs to prevent this but it still is not a good idea:
 
 -Xmx8G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
 
 hit save and play and you are good to go
 
-#### 4) Removing Distant horizons *Depricated until I can patch*
-
-In the game menu, click options then Click here
-
-![image](https://github.com/user-attachments/assets/2b7f5238-4dd3-4279-8a9b-60ce434f5a66)
-
-then turn this to false:
-
-![image](https://github.com/user-attachments/assets/256c3706-2e17-406c-887f-1948eed41f4f)
-
-and hit done, enjoy your more fps
-
-#### 5) Installing Git For a Faster Download
+#### 4) Installing Git For a Faster Download
 
 Okay, lets say that you actually see sunlight more than on your walk from your house to the convience store and you **don't** have git. This section will help you install it:
 
@@ -109,3 +109,15 @@ Commands you will use/learn:
 Typically I put the files from this on a temporary folder on my desktop, if you want to as well first navigate there at by typing (no "") "cd Desktop/" and hitting enter. After that paste "git clone https://github.com/WillGeis/minecraftServerPublicFiles.git" and the files will appear in a file on your desktop with this repository's name (minecraftServerPublicFiles)
 
 Bam you have the files and you learned a powerful VCS (version control system) tool that you can actually use if you want to pursue a career that will drive you slowly insane
+
+#### Ω) Removing Distant horizons *Depricated until I can patch*
+
+In the game menu, click options then Click here
+
+![image](https://github.com/user-attachments/assets/2b7f5238-4dd3-4279-8a9b-60ce434f5a66)
+
+then turn this to false:
+
+![image](https://github.com/user-attachments/assets/256c3706-2e17-406c-887f-1948eed41f4f)
+
+and hit done, enjoy your more fps
