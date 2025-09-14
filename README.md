@@ -24,7 +24,7 @@ Before we start this step, close any minecraft instances and any launcher instan
 
 ![{5B191384-1FB5-4B5C-A1A8-124DA0BF5941}](https://github.com/user-attachments/assets/fdd2f73d-29e6-447a-9a49-b59aafd31df1)
 
-Ensure that your minecraft version is 1.20.1 and loader version is 0.16.14, do not mess with any other settings.
+Ensure that your minecraft version is `1.20.1` and loader version is `0.16.14` (or newer as long as minecraft version is `1.20.1`), do not mess with any other settings.
 
 Hit install, you should see a successful message, go ahead and open the minecraft launcher BUT DO NOT CLICK PLAY UNTIL ADVISED. Make sure this is the version listed:
 
@@ -46,17 +46,19 @@ I dont know how to do this on a mac so you can google how to get to your .mincra
 
 ![image](https://github.com/user-attachments/assets/c0918471-0708-4d02-8b9f-05e549ecc783)
 
-Enter "%AppData%" and "OK"
+Enter `"%AppData%"` and "OK"
 
 ![image](https://github.com/user-attachments/assets/1fea3ac7-ba2b-40d3-a87a-81213b59ad51)
 
-Open .minecraft:
+Open `.minecraft`:
 
 ![image](https://github.com/user-attachments/assets/ace26fa9-7eba-4f00-8003-8720e3cc8ba6)
 
 ### 2Δ) google drive method
 
 If you are a lazy asshat, do not want to learn how to use a wonderful tool (again because you are a P.O.S.), and you just want to say "fuck you" to my hard work making a launcher, here is the google drive link for all the jars. I hope you feel bad about yourself: [Clicking this link means that you do not support Will's hard work](https://drive.google.com/drive/folders/1ioKVlznl7OvcqtVKKr4FN9gSg0iJfsCY?usp=sharing)
+
+Download either the contents of the folder `MODS2.0` or download the zip and extract all files into, you guessed it the `~/.minecraft/mods/` folder
 
 **NOTE ON STEP 2:** if you do not want to individually download all the files from this repository by hand, you can proceed to step 4 and learn how to clone this repository
 
@@ -84,7 +86,7 @@ In this string:
 
 For me on a 16gb rig, I use 8gb, *NOTE* do not allocate >12 gb of RAM because it can allow Minecraft to have memory leaks, I have done some fixes in these packs to prevent this but it still is not a good idea:
 
--Xmx8G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
+`-Xmx8G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M`
 
 hit save and play and you are good to go
 
@@ -100,13 +102,13 @@ Once git is installed open it (I dont know how for mac but on windows you hit th
 
 Commands you will use/learn:
 
- 1) ls - lists the contents of the directory you are in
- 2) cd /path/to/file/ - change directory you are in (essentially a file navigator)
- 3) git clone https://github.com/WillGeis/minecraftServerPublicFiles.git - this will clone all the files from this repository onto your computer
+ 1) `ls` - lists the contents of the directory you are in
+ 2) `cd /path/to/file/` - change directory you are in (essentially a file navigator)
+ 3) `git clone https://github.com/WillGeis/minecraftServerPublicFiles.git` - this will clone all the files from this repository onto your computer
 
 ![{357574F0-C42A-4DE5-BD3F-EAF6E1E94252}](https://github.com/user-attachments/assets/e708090b-587b-4498-974e-902b289e3305)
 
-Typically I put the files from this on a temporary folder on my desktop, if you want to as well first navigate there at by typing (no "") "cd Desktop/" and hitting enter. After that paste "git clone https://github.com/WillGeis/minecraftServerPublicFiles.git" and the files will appear in a file on your desktop with this repository's name (minecraftServerPublicFiles)
+Typically I put the files from this on a temporary folder on my desktop, if you want to as well first navigate there at by typing `cd Desktop/` and hitting enter. After that paste `git clone https://github.com/WillGeis/minecraftServerPublicFiles.git` and the files will appear in a file on your desktop with this repository's name (minecraftServerPublicFiles)
 
 Bam you have the files and you learned a powerful VCS (version control system) tool that you can actually use if you want to pursue a career that will drive you slowly insane
 
